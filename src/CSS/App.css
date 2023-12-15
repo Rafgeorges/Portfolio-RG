@@ -13,11 +13,18 @@
 .header img {
   height: 40px;
 }
+
 .header li {
   display: inline;
   font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
   padding: 0px 20px;
   font-size: 17px;
+}
+.header li a {
+  cursor: pointer;
+  text-decoration: none;
+  font-style: none;
+  color: white;
 }
 
 @media (max-width: 500px) {
