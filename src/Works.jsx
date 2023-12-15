@@ -4,6 +4,12 @@ import { useState } from "react"
 import Contact from "./Contact";
 ReactModal.setAppElement('#root');
 
+import kasa_thumbnail from '../public/assets/WORKS/Kasa/thumbnail.jpg'
+import work1_img_1 from '../public/assets/WORKS/Kasa/kasa_img_1.jpg'
+import work1_img_2 from '../public/assets/WORKS/Kasa/kasa_img_2.jpg'
+import work1_img_3 from '../public/assets/WORKS/Kasa/kasa_img_3.jpg'
+import work1_img_4 from '../public/assets/WORKS/Kasa/kasa_img_4.jpg'
+
 
 export default function Works(){
 
@@ -72,7 +78,7 @@ return <section className="works_section">
                                 bodyOpenClassName={"no_scroll"}
                                 >
                                         <div className="modal_container">
-                                                <img className='modal_works_samples' src="src/assets/WORKS/Kasa/thumbnail.jpg"/>
+                                                <img className='modal_works_samples' src={kasa_thumbnail} alt='work1_thumbnail'/>
                                                 <div className="modal_container_topright">
                                                         <div className="modal_description">
                                                                 <div className="modal_titles">
@@ -90,19 +96,19 @@ return <section className="works_section">
                                                         </div>
                                                 </div>
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Kasa/kasa_img_1.jpg"/>
+                                                        <img src={work1_img_1} alt='work1_img_1'/>
                                                 </div>   
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Kasa/kasa_img_2.jpg"/>
+                                                        <img src={work1_img_2} alt='work1_img_2'/>
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Kasa/kasa_img_3.jpg"/>
+                                                        <img src={work1_img_3} alt='work1_img_3'/>
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Kasa/kasa_img_4.jpg"/>
+                                                        <img src={work1_img_4} alt='work1_img_4'/>
 
                                                 </div>                                  
                                         </div>  
