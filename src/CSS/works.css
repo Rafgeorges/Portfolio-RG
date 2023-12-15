@@ -63,20 +63,20 @@
 .work_thumbnail img {
 }
 .work1 {
-  background-image: url("src/assets/WORKS/Kasa/thumbnail.jpg");
+  background-image: url("../public/assets/WORKS/Kasa/thumbnail.jpg");
   background-position: center;
 }
 
 .work2 {
-  background-image: url("src/assets/WORKS/Galat/galat2_thumbnail.jpg");
+  background-image: url("../public/assets/WORKS/Galat/galat2_thumbnail.jpg");
   background-position: center;
 }
 .work3 {
-  background-image: url("src/assets/WORKS/Grim/grim_img_1.jpg");
+  background-image: url("../public/assets/WORKS/Grim/grim_img_1.jpg");
   background-position: center;
 }
 .work4 {
-  background-image: url("src/assets/WORKS/Blue/bluel_img_1.jpg");
+  background-image: url("../public/assets/WORKS/Blue/bluel_img_1.jpg");
   background-position: center;
 }
 

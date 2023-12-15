@@ -1,27 +1,27 @@
 @font-face {
   font-family: "BauhausStd-Demi";
   src: local("BauhausStd-Demi"),
-    url("src/fonts/Bauhaus/BauhausStd-Demi.otf") format("opentype");
+    url("public/fonts/Bauhaus/BauhausStd-Demi.otf") format("opentype");
 }
 
 @font-face {
   font-family: "P22UNDERGROUNDCYPROBOOK";
   src: local("P22UNDERGROUNDCYPROBOOK"),
-    url("src/fonts/P22Underground/P22UNDERGROUNDCYPROBOOK.ttf")
+    url("public/fonts/P22Underground/P22UNDERGROUNDCYPROBOOK.ttf")
       format("truetype");
 }
 
 @font-face {
   font-family: "P22UndergroundCYProdemi";
   src: local("P22UndergroundCYProdemi"),
-    url("src/fonts/P22Underground/P22UndergroundCYProDemi.ttf")
+    url("public/fonts/P22Underground/P22UndergroundCYProDemi.ttf")
       format("truetype");
 }
 
 @font-face {
   font-family: "BritannicBold";
   src: local("BRITANIC"),
-    url("src/fonts/Britannic Bold/BRITANIC.ttf") format("truetype");
+    url("public/fonts/Britannic Bold/BRITANIC.ttf") format("truetype");
 }
 
 :root {

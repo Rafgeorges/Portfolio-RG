@@ -10,6 +10,28 @@ import work1_img_2 from '../public/assets/WORKS/Kasa/kasa_img_2.jpg'
 import work1_img_3 from '../public/assets/WORKS/Kasa/kasa_img_3.jpg'
 import work1_img_4 from '../public/assets/WORKS/Kasa/kasa_img_4.jpg'
 
+import work2_img_1 from '../public/assets/WORKS/Galat/galat_img_1.jpg'
+import work2_img_2 from '../public/assets/WORKS/Galat/galat_img_2.jpg'
+import work2_img_3 from '../public/assets/WORKS/Galat/galat_img_3.jpg'
+import work2_img_4 from '../public/assets/WORKS/Galat/galat_img_4.jpg'
+import work2_img_5 from '../public/assets/WORKS/Galat/Artboard 3.png'
+import work2_img_6 from '../public/assets/WORKS/Galat/Artboard 5 copie.png'
+import work2_img_7 from '../public/assets/WORKS/Galat/Artboard 5.png'
+import work2_img_8 from '../public/assets/WORKS/Galat/Artboard 7.png'
+import work2_img_9 from '../public/assets/WORKS/Galat/Artboard 10.png'
+import work2_img_10 from '../public/assets/WORKS/Galat/Artboard 9.png'
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default function Works(){
 
@@ -142,7 +164,7 @@ return <section className="works_section">
                                 bodyOpenClassName={"no_scroll"}
                                 >
                                         <div className="modal_container">
-                                                <img className='modal_works_samples' src="src/assets/WORKS/Galat/galat_thumbnail.jpg"/>
+                                                <img className='modal_works_samples' src="../public/assets/WORKS/Galat/galat_thumbnail.jpg"/>
                                                 <div className="modal_container_topright">
                                                         <div className="modal_description">
                                                                 <div className="modal_titles">
@@ -165,43 +187,43 @@ return <section className="works_section">
                                                         </div>
                                                 </div>
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Galat/galat_img_1.jpg"/>
+                                                        <img src={work2_img_1}/>
                                                 </div>   
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Galat/galat_img_2.jpg"/>
+                                                        <img src={work2_img_2}/>
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Galat/galat_img_3.jpg"/>
+                                                        <img src={work2_img_3}/>
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Galat/galat_img_4.jpg"/>
+                                                        <img src={work2_img_4}/>
                                                 </div>        
 
                                                 <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 3.png"/>
+                                                        <img src={work2_img_5}/>
                                                 </div>     
 
                                                  <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 5 copie.png"/>
+                                                        <img src={work2_img_6}/>
                                                 </div>  
 
                                                  <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 5.png"/>
+                                                        <img src={work2_img_7}/>
                                                 </div>  
-
+../
                                                  <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 7.png"/>
+                                                        <img src={work2_img_8}/>
                                                 </div>    
 
                                                  <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 10.png"/>
+                                                        <img src={work2_img_9}/>
                                                 </div> 
 
                                                  <div className="modal_works_samples_wide">
-                                                        <img src="src/assets/WORKS/Galat/Artboard 9.png"/>
+                                                        <img src={work2_img_10}/>
                                                 </div>                    
                                         </div>  
 
