@@ -1,0 +1,55 @@
+.contact_container {
+  padding: 37px;
+  display: flex;
+  gap: 25px;
+  justify-items: end;
+  margin: 20px;
+  outline: 5px solid #c44f2b;
+  border-radius: 5px;
+  height: calc(100% - 114px);
+}
+.contact_column {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.contact_column h2 {
+  line-height: 40px;
+  font-size: 38px;
+}
+
+.contact_column p {
+  font-size: 18px;
+}
+.contact_column a {
+  margin-top: auto;
+}
+
+.contact_column button {
+  width: 100%;
+  border: none;
+  margin: none;
+  height: 50px;
+  border-radius: 7px;
+  background-color: #ff864a;
+  cursor: pointer;
+  font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
+  font-size: 20px;
+  color: #561a0b;
+}
+
+.contact_column button:hover {
+  background-color: #ffa522;
+}
+.contact_container img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.contact_container h2 {
+}
+.contact_container a {
+}
+@media (max-width: 400px) {
+}

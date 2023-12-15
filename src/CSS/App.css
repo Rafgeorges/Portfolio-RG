@@ -1,0 +1,163 @@
+/* HEADER */
+.header {
+  background-color: #561a0b;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 20px;
+}
+
+.header img {
+  height: 40px;
+}
+.header li {
+  display: inline;
+  font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
+  padding: 0px 20px;
+  font-size: 17px;
+}
+
+@media (max-width: 500px) {
+  .header li {
+    padding: 0px 10px;
+  }
+}
+/* MAIN */
+.main {
+}
+/*INTRO*/
+.intro_container {
+  background-color: #fff2e6;
+  height: 716px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 75px 50px;
+}
+.intro_text {
+}
+.intro_container h1 {
+  font-family: "BauhausStd-Demi", sans-serif;
+  font-size: 64px;
+  color: #dd512a;
+  margin: 0;
+  filter: drop-shadow(1px 1px 0.5px #561a0b);
+}
+.intro_container p {
+  color: #561a0b;
+  font-size: 32px;
+  margin: 0px;
+  line-height: 40px;
+}
+.intro_container button {
+  background-color: #ff864a;
+  height: 55px;
+  width: 215px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 35px;
+  cursor: pointer;
+  font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
+  font-size: 25px;
+  color: #561a0b;
+
+  /* box-shadow: 1px 1px 2px 0px #00000060, 3px 3px 6px 0 #856e6eb0,
+    5px 5px 12px 0 #856e6e70, 7px 7px 30px #856e6e30,
+    inset 1px 1px 2px 0px #ffffff70, inset 5px 5px 10px 0 #ecc9c980,
+    inset -1px -1px 1px 0 #431a1a70, inset -12px -12px 12px -8px #431a1a10;
+  text-shadow: 0 0 1px #ffffffa0, 0 0 8px #ffffff40; */
+}
+
+.intro_container button:hover {
+  background-color: #f85a0a;
+}
+
+.intro_container img {
+  height: 350px;
+}
+@media (max-width: 500px) {
+  .intro_container {
+    flex-direction: column-reverse;
+    padding: 0px 40px;
+    gap: 15px;
+  }
+  .intro_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro_container h1 {
+    line-height: 70px;
+    font-size: 40px;
+  }
+  .intro_container p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .intro_container button {
+    margin-top: 25px;
+  }
+  .intro_container img {
+    height: 250px;
+  }
+}
+/*ABOUT*/
+.about {
+  background-color: #ffb341;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 80px 60px;
+}
+.about p {
+  color: #561a0b;
+  font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
+  margin: 0px;
+  font-size: 24px;
+  max-width: 1200px;
+  line-height: 32px;
+}
+
+@media (max-width: 400px) {
+  .about {
+  }
+  .about p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+/* SOCIALS */
+.socials_container {
+  background-color: #fff2e6;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.socials_container a {
+  margin: 0px;
+  padding: 0px;
+}
+.socials_container img {
+  display: block;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+/* SERVICES */
+/* -> SERVICES.CSS */
+
+/* WORKS */
+/* -> WORKS.CSS */
+/* CONTACT
+-> CONTACT.CSS */
+
+/* MOBILE */

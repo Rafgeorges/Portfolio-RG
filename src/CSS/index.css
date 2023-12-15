@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "BauhausStd-Demi";
+  src: local("BauhausStd-Demi"),
+    url("src/fonts/Bauhaus/BauhausStd-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "P22UNDERGROUNDCYPROBOOK";
+  src: local("P22UNDERGROUNDCYPROBOOK"),
+    url("src/fonts/P22Underground/P22UNDERGROUNDCYPROBOOK.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "P22UndergroundCYProdemi";
+  src: local("P22UndergroundCYProdemi"),
+    url("src/fonts/P22Underground/P22UndergroundCYProDemi.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "BritannicBold";
+  src: local("BRITANIC"),
+    url("src/fonts/Britannic Bold/BRITANIC.ttf") format("truetype");
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-family: "BauhausStd-Demi", sans-serif;
+  font-size: 45px;
+  color: #561a0b;
+  margin: 0;
+}
+
+p {
+  font-family: "P22UNDERGROUNDCYPROBOOK", sans-serif;
+  color: #561a0b;
+  margin: 0;
+  line-height: normal;
+}
