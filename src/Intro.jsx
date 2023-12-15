@@ -1,4 +1,4 @@
-import intro_logo from '../public/assets/logo_placeholder.png'
+import intro_logo from '/assets/logo_placeholder.png'
 
 
 export default function Intro(){

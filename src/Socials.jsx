@@ -1,4 +1,4 @@
-import github_icon from '../public/assets/icon_github.png'
+import github_icon from '/assets/icon_github.png'
 
 export default function Socials(){
     return <section className="socials_container" >
