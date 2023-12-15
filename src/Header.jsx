@@ -1,4 +1,4 @@
-import icon from '/src/assets/PU_DSC_9606.jpg'
+import icon from '../public/assets/PU_DSC_9606.jpg'
 
 
 export default function Header(){
