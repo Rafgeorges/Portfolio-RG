@@ -23,10 +23,16 @@ import work2_img_10 from '/assets/WORKS/Galat/Artboard 9.png'
 
 
 
+import work3_img_1 from '/assets/WORKS/Grim/grim_img_1.jpg'
+import work3_img_2 from '/assets/WORKS/Grim/grim_img_2.jpg'
+import work3_img_3 from '/assets/WORKS/Grim/grim_img_3.jpg'
+import work3_img_4 from '/assets/WORKS/Grim/grim_img_4.jpg'
+import work3_img_5 from '/assets/WORKS/Grim/grim_img_5.jpg'
 
 
-
-
+import work4_img_1 from '/assets/WORKS/Blue/bluel_img_1.jpg'
+import work4_img_2 from '/assets/WORKS/Blue/bluel_img_2.jpg'
+import work4_img_3 from '/assets/WORKS/Blue/bluel_img_3.jpg'
 
 
 
@@ -256,7 +262,7 @@ return <section className="works_section">
                                 bodyOpenClassName={"no_scroll"}
                                 >
                                         <div className="modal_container">
-                                                <img className='modal_works_samples' src="src/assets/WORKS/Grim/grim_img_1.jpg"/>
+                                                <img className='modal_works_samples' src={work3_img_1} alt='work3_img_1'/>
                                                 <div className="modal_container_topright">
                                                         <div className="modal_description">
                                                                 <div className="modal_titles">
@@ -277,19 +283,19 @@ return <section className="works_section">
                                                         </div>
                                                 </div>
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Grim/grim_img_2.jpg"/>
+                                                        <img src={work3_img_2} alt='work3_img_2' />
                                                 </div>   
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Grim/grim_img_3.jpg"/>
+                                                        <img src={work3_img_3} alt='work3_img_3' />
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Grim/grim_img_4.jpg"/>
+                                                        <img src={work3_img_4} alt='work3_img_4' />
                                                 </div>     
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Grim/grim_img_5.jpg"/>
+                                                        <img src={work3_img_5} alt='work3_img_5' />
 
                                                 </div>                                  
                                         </div>  
@@ -320,7 +326,7 @@ return <section className="works_section">
                                 bodyOpenClassName={"no_scroll"}
                                 >
                                         <div className="modal_container">
-                                                <img className='modal_works_samples' src="src/assets/WORKS/Blue/bluel_img_1.jpg"/>
+                                                <img className='modal_works_samples' src={work4_img_1}/>
                                                 <div className="modal_container_topright">
                                                         <div className="modal_description">
                                                                 <div className="modal_titles">
@@ -338,11 +344,11 @@ return <section className="works_section">
                                                         </div>
                                                 </div>
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Blue/bluel_img_2.jpg"/>
+                                                        <img src={work4_img_2}/>
                                                 </div>   
 
                                                 <div className="modal_works_samples">
-                                                        <img src="src/assets/WORKS/Blue/bluel_img_3.jpg"/>
+                                                        <img src={work4_img_3}/>
                                                 </div>     
       
                                         </div>  

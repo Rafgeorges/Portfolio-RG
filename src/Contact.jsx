@@ -1,3 +1,6 @@
+import contact_clock from '/assets/picture_contact.png'
+
+
 export default function Contact(){
     return <div className="contact_container" id="contact_container">
                 <div className="contact_column">
@@ -5,7 +8,7 @@ export default function Contact(){
                     <p>Prenez le temps de m'écrire un petit mail !</p>
                     <a href= "mailto:raf.georges.dev@gmail.com"><button >Écrire</button> </a>  
                 </div>
-                <img src="src/assets/picture_contact.png" alt='contact_clock' />
+                <img src={contact_clock} alt='contact_clock' />
             </div>
         
 
