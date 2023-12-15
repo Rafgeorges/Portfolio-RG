@@ -2,7 +2,7 @@
 export default function Header(){
     return (
         <header className='header'>
-            <img src="src/assets/PU_DSC_9606.jpg" alt='icon'/>
+            <img src="./src/assets/PU_DSC_9606.jpg" alt='icon'/>
             <nav>
                 <ul>
                     <li><a href='#about'>A propos</a></li>
