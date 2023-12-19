@@ -82,7 +82,6 @@
 
 /* MODALE */
 .ReactModal__Content--after-open {
-  max-width: 1600px;
   margin: auto;
 }
 .no_scroll {
@@ -93,18 +92,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  outline: #75c6a7 2px solid;
+  justify-content: center;
 }
 
 /* MODALE -- TRAVAUX  */
 
 .modal_works_samples {
-  width: calc(50% - 10px);
-  max-width: 750px;
+  background-color: white;
   position: relative;
-  border: 1px solid rgb(202, 202, 202);
-  /* box-shadow: 1px 1px 2px 0px #00000060, 3px 3px 6px 0 #856e6eb0,
+  max-width: calc(50% - 12px);
+  box-shadow: 1px 1px 2px 0px #00000060, 3px 3px 6px 0 #856e6eb0,
     5px 5px 12px 0 #856e6e70, 7px 7px 30px #856e6e30,
-    inset -1px -1px 1px 0 #431a1a70, inset -12px -12px 12px -8px #431a1a10; */
+    inset -1px -1px 1px 0 #431a1a70, inset -12px -12px 12px -8px #431a1a10;
 }
 
 .modal_works_samples img {
@@ -160,8 +160,6 @@
 }
 
 .modal_container_topright {
-  width: calc(50% - 35px);
-  padding: 15px;
 }
 .modal_works_samples_wide {
   border: 1px solid rgb(202, 202, 202);

@@ -263,8 +263,8 @@ return <section className="works_section">
                                 >
                                         <div className="modal_container">
                                                 <img className='modal_works_samples' src={work3_img_1} alt='work3_img_1'/>
-                                                <div className="modal_container_topright">
-                                                        <div className="modal_description">
+                                                <div className="modal_works_samples modal_container_topright">
+                                                        <div className="modal_description ">
                                                                 <div className="modal_titles">
                                                                         <h3>Mon vieux grimoire</h3> 
                                                                         <h3>2023</h3>
