@@ -1,0 +1,127 @@
+.services_section {
+  background: rgb(204, 66, 47);
+  background: linear-gradient(
+    0deg,
+    rgba(204, 66, 47, 1) 0%,
+    rgba(221, 81, 42, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 100px 50px;
+}
+.services_section h2 {
+  margin: 0px;
+  color: #fff2e6;
+  filter: drop-shadow(3px 3px 0.5px #561a0b);
+}
+/* SERVICES CARD */
+.services_container {
+  display: flex;
+  gap: 65px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services {
+  border-radius: 15px;
+  max-height: 450px;
+  width: 355px;
+  outline: #fff2e6 solid 8px;
+  filter: drop-shadow(7px 7px 15px #561a0b54);
+}
+
+.service_1 {
+  background-color: #ffb341;
+}
+
+.service_2 {
+  background-color: #75c6a7;
+}
+.service_3 {
+  background-color: #ff864a;
+}
+
+.service_upper {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "BritannicBold", sans-serif;
+  font-size: 27px;
+  color: #561a0b;
+}
+.service_upper h3 {
+  margin: 0;
+}
+.service_bande {
+  background-color: #fff2e6;
+  padding: 25px 25px 50px 25px;
+}
+.service_bande p {
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0px;
+}
+.service_lower {
+  padding: 25px;
+}
+.service_lower p {
+  font-family: "P22UndergroundCYProdemi", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #561a0b;
+}
+
+@media (max-width: 400px) {
+  .services_section {
+    height: fit-content;
+    padding-top: 75px;
+  }
+  .services_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services {
+    border-radius: 15px;
+    max-height: 450px;
+    width: 300px;
+    outline: #fff2e6 solid 8px;
+    filter: drop-shadow(7px 7px 15px #561a0b54);
+  }
+  .service_upper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "BritannicBold", sans-serif;
+    font-size: 20px;
+    color: #561a0b;
+  }
+  .service_upper h3 {
+    margin: 0;
+  }
+  .service_bande {
+    background-color: #fff2e6;
+    padding: 15px 25px 25px 25px;
+  }
+
+  .service_bande p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0px;
+  }
+  .service_lower {
+    padding: 15px;
+  }
+  .service_lower p {
+    font-family: "P22UndergroundCYProdemi", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: #561a0b;
+  }
+}

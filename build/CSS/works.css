@@ -63,25 +63,26 @@
 .work_thumbnail img {
 }
 .work1 {
-  background-image: url("/assets/WORKS/Kasa/thumbnail.jpg");
+  background-image: url("src/assets/WORKS/Kasa/thumbnail.jpg");
   background-position: center;
 }
 
 .work2 {
-  background-image: url("/assets/WORKS/Galat/galat2_thumbnail.jpg");
+  background-image: url("src/assets/WORKS/Galat/galat2_thumbnail.jpg");
   background-position: center;
 }
 .work3 {
-  background-image: url("/assets/WORKS/Grim/grim_img_1.jpg");
+  background-image: url("src/assets/WORKS/Grim/grim_img_1.jpg");
   background-position: center;
 }
 .work4 {
-  background-image: url("/assets/WORKS/Blue/bluel_img_1.jpg");
+  background-image: url("src/assets/WORKS/Blue/bluel_img_1.jpg");
   background-position: center;
 }
 
 /* MODALE */
 .ReactModal__Content--after-open {
+  max-width: 1600px;
   margin: auto;
 }
 .no_scroll {
@@ -92,16 +93,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 
 /* MODALE -- TRAVAUX  */
 
 .modal_works_samples {
-  background-color: white;
+  width: calc(50% - 10px);
+  max-width: 750px;
   position: relative;
-  max-width: calc(50% - 12px);
-  box-shadow: 1px 1px 2px 0px #0000000c, 3px 3px 6px 0 #856e6e48;
+  border: 1px solid rgb(202, 202, 202);
 }
 
 .modal_works_samples img {
@@ -109,14 +109,10 @@
   margin: 0px;
   width: 100%;
 }
-.modal_container_topright {
-  max-width: calc(50% - 12px);
-}
 .modal_description {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 25px;
 }
 .modal_titles {
   display: flex;
@@ -160,6 +156,10 @@
   color: black;
 }
 
+.modal_container_topright {
+  width: calc(50% - 35px);
+  padding: 15px;
+}
 .modal_works_samples_wide {
   border: 1px solid rgb(202, 202, 202);
 }
